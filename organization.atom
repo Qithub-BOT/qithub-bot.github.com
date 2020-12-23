@@ -2036,9 +2036,9 @@ ps で監視しつつ終わったら自動的にリブートします&lt;br&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div class="code-frame" data-lang="bash"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# yum list installed | grep openvpn&lt;/span&gt;
-openvpn.x86_64                       2.4.9-1.el8                             @epel     
+openvpn.x86_64                       2.4.9-1.el8                             @epel
 &lt;span class="c"&gt;# yum list installed | grep easy-rsa&lt;/span&gt;
-easy-rsa.noarch                      3.0.8-1.el8                             @epel    
+easy-rsa.noarch                      3.0.8-1.el8                             @epel
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;openvpn 2.4.9-1.el8&lt;br&gt;
@@ -3545,7 +3545,7 @@ std-discussionに質問が飛んで&lt;br&gt;
 &lt;li&gt;&lt;a href="https://twitter.com/k_satoda/status/1242300634587467777" class="autolink" rel="nofollow noopener" target="_blank"&gt;https://twitter.com/k_satoda/status/1242300634587467777&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script async src="https://platform.twitter.com/widgets.js"&gt;&lt;/script&gt; 
+&lt;script async src="https://platform.twitter.com/widgets.js"&gt;&lt;/script&gt;
 
 &lt;div class="footnotes"&gt;
 &lt;hr&gt;
@@ -4393,7 +4393,7 @@ ocra .&lt;span class="se"&gt;\c&lt;/span&gt;ontrol_gallery.rb &lt;span class="nt
 &lt;span class="k"&gt;end&lt;/span&gt;
 
 &lt;span class="n"&gt;rc&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="no"&gt;HelloWin&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;message_box&lt;/span&gt; &lt;span class="kp"&gt;nil&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'Hello Windows!'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'FFI on Windows'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
-&lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;"Return code: &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt; 
+&lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;"Return code: &lt;/span&gt;&lt;span class="si"&gt;#{&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Windows APIの使用は、前の例とほとんど同じくらい簡単です。 通常、&lt;code&gt;ffi_lib&lt;/code&gt; メソッドを介して検索するWindowsライブラリをFFIに通知し、Windows APIで使用されるstdcall規則を使用するようFFIに通知する必要があります。&lt;code&gt;ffi_convention&lt;/code&gt; メソッドは、使用する呼び出し規約をFFIに &lt;code&gt;ffi_convention&lt;/code&gt; します。&lt;/p&gt;
@@ -4474,7 +4474,7 @@ ocra .&lt;span class="se"&gt;\c&lt;/span&gt;ontrol_gallery.rb &lt;span class="nt
 
   &lt;span class="n"&gt;objptr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;create_object&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"my object"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
   &lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;calculate_something_else&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="n"&gt;free_object&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;  
+  &lt;span class="n"&gt;free_object&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
 
   &lt;span class="n"&gt;fprintf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;"calculated %f&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
   &lt;span class="n"&gt;exit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
@@ -4552,7 +4552,7 @@ ocra .&lt;span class="se"&gt;\c&lt;/span&gt;ontrol_gallery.rb &lt;span class="nt
 &lt;span class="kt"&gt;double&lt;/span&gt; &lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="n"&gt;nfound&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;find_first_match&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"jimbo"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;calculate_something_else&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;  
+&lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;calculate_something_else&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;objptr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;この関数は次のようにFFIを介して追加されます。&lt;/p&gt;
@@ -4625,7 +4625,7 @@ ocra .&lt;span class="se"&gt;\c&lt;/span&gt;ontrol_gallery.rb &lt;span class="nt
 &lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;AugeasLib&lt;/span&gt;
   &lt;span class="kp"&gt;extend&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Library&lt;/span&gt;
   &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s2"&gt;"libaugeas.so"&lt;/span&gt;
-  &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:aug_match&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt; 
+  &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:aug_match&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -4640,7 +4640,7 @@ ocra .&lt;span class="se"&gt;\c&lt;/span&gt;ontrol_gallery.rb &lt;span class="nt
     &lt;span class="n"&gt;strPtr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ptr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read_pointer&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
     &lt;span class="n"&gt;strPtr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;null?&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ptr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;get_array_of_string&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;len&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nf"&gt;compact&lt;/span&gt;
   &lt;span class="k"&gt;end&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt; 
+&lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2&gt;
@@ -5206,7 +5206,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 &lt;p&gt;さらに、独自のタイプを定義することも可能です。これは、次のように異なるタイプの&lt;code&gt;:pointer&lt;/code&gt;区別するのに特に役立ちます。&lt;/p&gt;
 
 &lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;typedef&lt;/span&gt; &lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:libusb_device_handle&lt;/span&gt;
-&lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="s1"&gt;'libusb_reset_device'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:libusb_device_handle&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;  
+&lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="s1"&gt;'libusb_reset_device'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:libusb_device_handle&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;値をマップするためのさらに優れた可能性があります。&lt;/p&gt;
@@ -5636,21 +5636,21 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 
 &lt;p&gt;Cから&lt;/p&gt;
 
-&lt;div class="code-frame" data-lang="c"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;struct&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; 
-  &lt;span class="n"&gt;uint8&lt;/span&gt; &lt;span class="n"&gt;Value&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
-  &lt;span class="n"&gt;uint8&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;SIZE_OF_ARRAY&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt; 
-&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="n"&gt;MyArray_t&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;div class="code-frame" data-lang="c"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;struct&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="n"&gt;uint8&lt;/span&gt; &lt;span class="n"&gt;Value&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="n"&gt;uint8&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;SIZE_OF_ARRAY&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="n"&gt;MyArray_t&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Rubyへ&lt;/p&gt;
 
-&lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyArray_t&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Struct&lt;/span&gt; 
-  &lt;span class="n"&gt;layout&lt;/span&gt;  &lt;span class="ss"&gt;:Value&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="ss"&gt;:uint8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
-         &lt;span class="ss"&gt;:String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:uint8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="no"&gt;SIZE_OF_ARRAY&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; 
-&lt;span class="k"&gt;end&lt;/span&gt; 
+&lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MyArray_t&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Struct&lt;/span&gt;
+  &lt;span class="n"&gt;layout&lt;/span&gt;  &lt;span class="ss"&gt;:Value&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="ss"&gt;:uint8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+         &lt;span class="ss"&gt;:String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:uint8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="no"&gt;SIZE_OF_ARRAY&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
 
 &lt;span class="c1"&gt;# use via:&lt;/span&gt;
-&lt;span class="n"&gt;my_array_struct&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:String&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nf"&gt;to_ptr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read_string&lt;/span&gt; 
+&lt;span class="n"&gt;my_array_struct&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:String&lt;/span&gt;&lt;span class="p"&gt;].&lt;/span&gt;&lt;span class="nf"&gt;to_ptr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;read_string&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;それらを次のように設定します&lt;/p&gt;
@@ -5712,7 +5712,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
   &lt;span class="n"&gt;layout&lt;/span&gt;  &lt;span class="ss"&gt;:offset&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="ss"&gt;:dataType&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="ss"&gt;:u&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="no"&gt;FTextItemU&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt; 
+&lt;span class="k"&gt;end&lt;/span&gt;
 
 &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;FTextItemsT&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Struct&lt;/span&gt;
   &lt;span class="n"&gt;layout&lt;/span&gt; &lt;span class="ss"&gt;:len&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -5983,7 +5983,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 &lt;span class="k"&gt;ensure&lt;/span&gt; &lt;span class="c1"&gt;# make sure this block is called, no matter what&lt;/span&gt;
 
   &lt;span class="c1"&gt;# free it, if p_out still holds a pointer&lt;/span&gt;
-  &lt;span class="no"&gt;Foo&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;free&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p_out&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;p_out&lt;/span&gt; 
+  &lt;span class="no"&gt;Foo&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;free&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p_out&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;p_out&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -6159,7 +6159,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 
 &lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;ExampleLib&lt;/span&gt;
   &lt;span class="kp"&gt;extend&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Library&lt;/span&gt;
-  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s2"&gt;"example_lib.so"&lt;/span&gt; 
+  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s2"&gt;"example_lib.so"&lt;/span&gt;
 
   &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:convert&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
@@ -6171,7 +6171,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 
 &lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;ExampleLib&lt;/span&gt;
   &lt;span class="kp"&gt;extend&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Library&lt;/span&gt;
-  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s2"&gt;"example_lib.so"&lt;/span&gt; 
+  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s2"&gt;"example_lib.so"&lt;/span&gt;
 
   &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:convert&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
 
@@ -6289,7 +6289,7 @@ typ&lt;/span&gt;&lt;span class="sr"&gt;e&lt;/span&gt;&lt;span class="k"&gt;def&l
 &lt;span id="ffifunctionblocking-false-rubyからネイティブメソッド呼び出し" class="fragment"&gt;&lt;/span&gt;&lt;a href="#ffifunctionblocking-false-ruby%E3%81%8B%E3%82%89%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%97"&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;FFI::Function、、blocking: false Rubyからネイティブメソッド呼び出し&lt;/h3&gt;
 
 &lt;div class="code-frame" data-lang="text"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;Ruby -&amp;gt;
-  FFI stub for parameter conversion -&amp;gt;  
+  FFI stub for parameter conversion -&amp;gt;
   call native function -&amp;gt;
   FFI stub for result conversion -&amp;gt;
 Ruby
@@ -6298,10 +6298,10 @@ Ruby
 &lt;h3&gt;
 &lt;span id="ffifunction-blocking-true-ruby-to-native-method-call" class="fragment"&gt;&lt;/span&gt;&lt;a href="#ffifunction-blocking-true-ruby-to-native-method-call"&gt;&lt;i class="fa fa-link"&gt;&lt;/i&gt;&lt;/a&gt;FFI::Function, blocking: true, Ruby to native method call&lt;/h3&gt;
 
-&lt;div class="code-frame" data-lang="text"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;Ruby -&amp;gt; 
-  FFI stub for parameter conversion -&amp;gt; 
+&lt;div class="code-frame" data-lang="text"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;Ruby -&amp;gt;
+  FFI stub for parameter conversion -&amp;gt;
   release GIL -&amp;gt;
-  call native function -&amp;gt; 
+  call native function -&amp;gt;
   reacquire GIL -&amp;gt;
   FFI stub for result conversion -&amp;gt;
 Ruby
@@ -6341,12 +6341,12 @@ Callback Procs always follow this code path.&lt;/p&gt;
 
 &lt;p&gt;この手法は、アタッチしようとしているネイティブ関数に複数のシグネチャがある場合に役立つことがあります。たとえば、Win32 API関数SendMessage（lParam）の最後の引数は、：longまたは：pointerのいずれかになります。このネイティブ関数をさまざまな種類の引数で呼び出すことができることをFFIに直接伝えることはできないため、この関数をさまざまな名前と署名で2回アタッチしてから、引数の種類を確認し、適切な署名を使用して添付関数に呼び出しをルーティングする便利なメソッドを作成する必要があります：&lt;/p&gt;
 
-&lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'ffi'&lt;/span&gt; 
+&lt;div class="code-frame" data-lang="ruby"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="s1"&gt;'ffi'&lt;/span&gt;
 
-&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;Win&lt;/span&gt; 
-  &lt;span class="kp"&gt;extend&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Library&lt;/span&gt; 
-  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s1"&gt;'user32'&lt;/span&gt; 
-  &lt;span class="n"&gt;ffi_convention&lt;/span&gt; &lt;span class="ss"&gt;:stdcall&lt;/span&gt; 
+&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;Win&lt;/span&gt;
+  &lt;span class="kp"&gt;extend&lt;/span&gt; &lt;span class="no"&gt;FFI&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="no"&gt;Library&lt;/span&gt;
+  &lt;span class="n"&gt;ffi_lib&lt;/span&gt; &lt;span class="s1"&gt;'user32'&lt;/span&gt;
+  &lt;span class="n"&gt;ffi_convention&lt;/span&gt; &lt;span class="ss"&gt;:stdcall&lt;/span&gt;
 
   &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:SendMessageLong&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:SendMessage&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:ulong&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:long&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
   &lt;span class="n"&gt;attach_function&lt;/span&gt; &lt;span class="ss"&gt;:SendMessagePointer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:SendMessage&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="ss"&gt;:ulong&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:uint&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ss"&gt;:pointer&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="ss"&gt;:int&lt;/span&gt;
@@ -6358,7 +6358,7 @@ Callback Procs always follow this code path.&lt;/p&gt;
       &lt;span class="k"&gt;else&lt;/span&gt;
         &lt;span class="no"&gt;SendMessagePointer&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;handle&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;w_param&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;l_param&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;end&lt;/span&gt;
-  &lt;span class="k"&gt;end&lt;/span&gt;  
+  &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
