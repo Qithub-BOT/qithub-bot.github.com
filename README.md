@@ -1,4 +1,4 @@
-![FeedCheck](https://github.com/Qithub-BOT/qithub-bot.github.com/workflows/FeedCheck/badge.svg "XML Lint のチェック")
+[![FeedCheck](https://github.com/Qithub-BOT/qithub-bot.github.com/workflows/FeedCheck/badge.svg)](https://github.com/Qithub-BOT/qithub-bot.github.com/actions "XML Lint のチェック結果")
 
 ## カスタム Qiita 記事フィード集
 
