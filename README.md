@@ -1,3 +1,5 @@
+[![FeedCheck](https://github.com/Qithub-BOT/qithub-bot.github.com/workflows/FeedCheck/badge.svg)](https://github.com/Qithub-BOT/qithub-bot.github.com/actions "XML Lint のチェック結果")
+
 ## カスタム Qiita 記事フィード集
 
 このリポジトリは [Qiita](https://qiita.com/)/[Qiitadon](https://qiitadon.com/) ユーザーの[キュレーション](https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%82%AD%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC)により作成された RSS/Atom フィードをタグ別に掲載しています。
