@@ -6,9 +6,9 @@ Qiita/Qiitadon ユーザであれば、どなたでも作成・追加・編集�
 
 ## フィード一覧
 
-| タグ<br>（ABC順） | 概要 | フィード URL |
-| :--: | :-- | :-- |
-| Organization | [Qiitadonユーザ会](https://qiita.com/organizations/qiitadon)メンバーのフィード | https://qithub-bot.github.io/organization.atom [![Link](https://img.shields.io/badge/-Link-orange.svg)](https://qithub-bot.github.io/organization.atom) |
+| タグ<br>（ABC順） | 概要 | プレビュー | URL
+| :--: | :-- | :--: | :--: |
+| Organization | [Qiitadonユーザ会](https://qiita.com/organizations/qiitadon)メンバーのフィード | [プレビュー](https://github.com/Qithub-BOT/qithub-bot.github.com/blob/main/organization.atom) | [![](./feed.png)](https://qithub-bot.github.io/organization.atom "Link to RSS/Atom") |
 
 ## Contribution
 
@@ -22,3 +22,4 @@ Qiita/Qiitadon ユーザであれば、どなたでも作成・追加・編集�
 - 【注意】
   - このリポジトリおよびフィード自体は MIT ライセンスですが、各フィードに掲載されている **URL 先の記事の著作権は各々の著者に属し MIT ライセンスではありません**。そのため、[引用](https://ja.wikipedia.org/wiki/%E5%BC%95%E7%94%A8)を除き、URL 先の著作物を本人の許可なく再掲載することは禁止されています。[RSS リーダー](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC)などの個人利用に限ることを御留意ください。
   - [MIT ライセンスについて](https://ja.wikipedia.org/wiki/MIT_License) @ Wikipedia
+- フィードアイコン from [Generic Feed Icon](https://commons.wikimedia.org/wiki/File:Generic_Feed-icon.svg) @ wikimedia.org
